@@ -14,8 +14,8 @@
         <property name="show_sql">true</property>
         <!--для создания таблиц-->
         <property name="hibernate.hbm2ddl.auto">create</property>
-<!--        <mapping class="ru.itis.jpa.models.Course"/>-->
-<!--        <mapping class="ru.itis.jpa.models.Lesson"/>-->
-<!--        <mapping class="ru.itis.jpa.models.Student"/>-->
+        <mapping class="ru.itis.spring.models.Course"/>
+        <mapping class="ru.itis.spring.models.Lesson"/>
+        <mapping class="ru.itis.spring.models.Student"/>
     </session-factory>
 </hibernate-configuration>
